@@ -1,0 +1,57 @@
+# Entorno virtual
+venv/
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de base de datos temporales
+*.sqlite3
+
+# Archivos de configuración local
+*.env
+.env.*
+
+# Archivos de log
+*.log
+
+# Archivos de migración (opcional si querés ignorarlos)
+# Puedes quitar esta sección si querés versionar las migraciones
+# */migrations/*.py
+# */migrations/*.pyc
+
+# Archivos de cache
+*.pot
+*.mo
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos generados por VSCode, PyCharm o editores
+.vscode/
+.idea/
+
+# Archivos de compilación
+build/
+dist/
+*.egg-info/
+
+# Configuraciones de Docker (si lo usás después)
+docker-compose.override.yml
+
+# Node.js (si usás front-end con npm/yarn más adelante)
+node_modules/
+
+# Archivos de coverage/testing
+htmlcov/
+.coverage
+.tox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+
+# Requisitos generados automáticamente
+pip-log.txt
+
